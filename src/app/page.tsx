@@ -4,7 +4,6 @@ import Hero from "./components/Hero";
 import Services from "./components/Services";
 import AboutPage from "./components/About";
 import ProcessPage from "./components/Process";
-import PortfolioPage from "./components/Portfolio";
 import TestimonialsPage from "./components/Testimonials";
 import ContactPage from "./components/Contact";
 import Footer from "./components/Footer";
@@ -30,11 +29,6 @@ export default function Home() {
                         <ProcessPage />
                     </div>
                 </section>
-               {/* <section id="portfolio" className="bg-white text-text py-16">
-                    <div className="max-w-7xl mx-auto px-6">
-                        <PortfolioPage />
-                    </div>
-                </section>*/}
                 <section id="testimonials" className="bg-white text-text py-16">
                     <div className="max-w-7xl mx-auto px-6">
                         <TestimonialsPage />

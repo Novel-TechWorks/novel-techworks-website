@@ -1,7 +1,5 @@
 "use client";
 
-import { FaRegCheckCircle } from "react-icons/fa";
-
 export const metadata = {
     title: "Process | Novel TechWorks",
     description: "Our comprehensive process to deliver top-quality digital solutions.",
