@@ -27,8 +27,9 @@ export default function ContactPage() {
                     Monday to Friday, 9 AM to 5 PM EST/EDT
                 </p>
                 <form
-                    name="contact"
                     method="POST"
+                    name="contact"
+                    action="/success"
                     data-netlify="true"
                     className="space-y-6 bg-white p-8 rounded-2xl shadow-lg animate-fadeInUp delay-500"
                 >
