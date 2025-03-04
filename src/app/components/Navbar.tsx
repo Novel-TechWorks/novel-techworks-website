@@ -62,7 +62,7 @@ export default function Navbar() {
 
             {/* Mobile Navigation */}
             {isOpen && (
-                <div className="md:hidden bg-white bg-opacity-95 shadow-md transition-colors duration-300">
+                <div className="md:hidden bg-white text-primary bg-opacity-95 shadow-md transition-colors duration-300">
                     <nav className="flex flex-col space-y-4 px-6 py-4">
                         <Link href="#hero" onClick={handleLinkClick} className="transition hover:text-primary">
                             Home
