@@ -29,7 +29,6 @@ export default function ContactPage() {
                 <form
                     method="POST"
                     name="contact"
-                    action="/success"
                     data-netlify="true"
                     className="space-y-6 bg-white p-8 rounded-2xl shadow-lg animate-fadeInUp delay-500"
                 >
