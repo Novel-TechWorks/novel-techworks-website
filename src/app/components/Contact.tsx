@@ -30,10 +30,11 @@ export default function ContactPage() {
                     method="POST"
                     name="contact"
                     data-netlify="true"
+                    data-netlify-recaptcha="true"
                     className="space-y-6 bg-white p-8 rounded-2xl shadow-lg animate-fadeInUp delay-500"
                 >
                     {/* Hidden input required by Netlify */}
-                    <input type="hidden" name="form-name" value="contact" />
+                    <input type="hidden" name="form-name" value="contact"/>
                     <div>
                         <input
                             type="text"
@@ -61,6 +62,7 @@ export default function ContactPage() {
                 className="w-full p-4 bg-gray-100 border border-gray-300 rounded-xl focus:outline-none focus:border-primary transition duration-300 text-gray-900"
             ></textarea>
                     </div>
+                    <div data-netlify-recaptcha="true"></div>
                     <div className="text-center">
                         <button
                             type="submit"
