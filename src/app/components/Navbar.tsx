@@ -15,14 +15,13 @@ export default function Navbar() {
                 {/* Logo & Site Name */}
                 <Link href="/" className="flex items-center space-x-2">
                     <Image
-                        src="/logo.png" // Place your logo in the public folder
+                        src="/logo_2.png" // Place your logo in the public folder
                         alt="Novel TechWorks Logo"
-                        width={40}
-                        height={40}
+                        width={250}
+                        height={250}
                         className="object-cover"
                         priority
                     />
-                    <sub className="text-xl font-bold text-primary">ovel TechWorks</sub>
                 </Link>
 
                 {/* Desktop Navigation */}
