@@ -1,5 +1,5 @@
 // app/layout.tsx
-import type { Metadata } from "next";
+import type {Metadata} from "next";
 import "./globals.css";
 import Head from "next/head";
 import React from "react";
@@ -9,9 +9,9 @@ export const metadata: Metadata = {
     description: "Powerful digital solutions for your business"
 };
 
-const GA_MEASUREMENT_ID = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID;
+const GA_MEASUREMENT_ID = 'G-8M29M4ZPXX';
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({children}: { children: React.ReactNode }) {
     return (
         <html lang="en">
         <Head>
