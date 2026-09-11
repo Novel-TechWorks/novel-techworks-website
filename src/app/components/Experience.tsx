@@ -34,17 +34,19 @@ export default function Experience() {
         <div className="scene-glow" />
         <div className="sculpture-position">
           <div className="sculpture">
-            {Array.from({ length: 24 }, (_, i) => (
-              <i
-                className="sculpture-ring"
+            {Array.from({ length: 12 }, (_, i) => (
+              <span
+                className="monogram-layer"
                 key={i}
-                style={{ transform: `rotateY(${i * 7.5}deg)` }}
-              />
+                style={{ transform: `translateZ(${i * 3}px)` }}
+              >
+                N
+              </span>
             ))}
           </div>
         </div>
-        <span className="scene-label label-top">IDEAS INTO DIMENSION</span>
-        <span className="scene-label label-bottom">NOVEL / 001</span>
+        <span className="scene-label label-top">A DIFFERENT DIMENSION</span>
+        <span className="scene-label label-bottom">DESIGNED TO MOVE</span>
       </div>
       <button
         className="motion-toggle"

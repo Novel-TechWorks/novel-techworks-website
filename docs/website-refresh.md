@@ -30,3 +30,17 @@ Final `npm audit`: **0 vulnerabilities** across all dependency scopes. This is a
 ## Run locally
 
 Use `npm ci`, then `npm run dev`. Use `npm run build` and `npm start` for a production preview. The deployed site's existing Google Analytics measurement ID is preserved.
+
+## Studio concept edition
+
+The second design introduces oversized studio typography, a dimensional N, and warm light sections around three clearly labelled original demos:
+
+- Sunday Studio: session/time selection and a booking preview (no reservation is created).
+- Objects, considered: lamp finish selection, demo bag count, and bag reset (no commerce backend).
+- Orbit: project filtering and task completion counters using sample workspace data.
+
+A personal introduction replaces the generic studio description. No client projects, testimonials, performance results, or credentials are invented. The visual in the introduction is a typographic studio mark.
+
+The project enquiry form validates a brief and creates an encoded mailto link for the visitor to review and send. It does not transmit or persist submissions. All concept state is local to the page and resets on reload.
+
+Verified in-browser: booking preview, finish changes and bag count, task completion and filtering, email draft contents, and 390px mobile layout with no horizontal overflow. Production build and lint pass; the two pre-existing unused-component image warnings remain. No new dependencies were added.
